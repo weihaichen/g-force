@@ -10,6 +10,7 @@
 2. run this command: `sudo dpkg -i mysql-apt-config_0.8.10-1_all.deb`
 3. Adding the mysql apt repo: `sudo apt-get update`
 4. Install: ` sudo apt-get install mysql-server`
+   -   set your password to ***g-force*** 
 5. To start mysql: `sudo service mysql start`
 6. To stop mysql: ` sudo service mysql stop`
 7. To check mysql status: `sudo service mysql status`
@@ -49,3 +50,6 @@
 
 ## Running the project:
 `npm run dev`
+
+## To create your own working branch:
+- `git checkout -b *branch name*`
